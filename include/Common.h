@@ -5,7 +5,7 @@
 #include <array>
 
 // 对齐数大小
-constexpr size_t ALIGNMENT = 8;
+constexpr size_t ALIGNMENT = 16;
 
 //一个界限，大于64KB就调用系统malloc，小于就用内存池
 constexpr size_t MAX_BYTES = 256 * 1024;
